@@ -1,0 +1,32 @@
+@mixin knopka($color: lime,$width: 200px,$heidht: 80px){
+    background: lightgreen;
+    display: inline-block;
+    width: $width;
+    height: $heidht;
+    text-align: center;
+    line-height: $heidht;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #999;
+    box-shadow: 0 0 17px #eee;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #FFF;
+    
+    
+    &:hover{
+    background-color: lighten($color, 58%);
+    }
+    &:active {
+        background: darken($color, 15%);
+    }
+}
+#mybutton{
+    @include knopka();
+}
+#danger-button{
+    @include knopka();
+}
+#attention-button{
+    @include knopka();
+}

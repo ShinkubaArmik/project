@@ -1,0 +1,57 @@
+ Возврат значений :                                  Области видимости :                               
+-------------------                                  -------------------                                
+                                                    function testPrime(a,b){
+                                                          let t = 100;            
+                                                       return (t + a)*b;
+                                                       }
+                                                  console.log(testPrime(100,2))                                                                           
+function first(y){
+    console.log(2*8);                              ----------------------------
+y();                                                    ||| Рекурсия |||
+}                                                  ----------------------------
+function second(a,b){                                                    
+    console.log(a*b);                                   function f(n){
+                                                     if (n===1) return 1;
+                                                       return n * f(n - 1);
+                                                         }
+                                                         console.log(f(4)     
+}
+first(function(){
+    second(3,6)
+});
+//second(4,7);
+
+___---___---___---___
+
+
+Замыкание :
+-----------
+function Counter(){
+var count = 0;
+return function(){
+    count++;
+    return count;
+   }
+}
+var counter = Counter();
+console.log(counter());
+console.log(counter());
+console.log(counter());
+console.log(counter());
+
+//////////////////
+
+function count(){
+    let a = 0
+    return function(){
+    a++;
+console.log(a)
+}
+}
+let d = count();
+ a = 6;
+d();
+d();
+d();
+d();
+d();

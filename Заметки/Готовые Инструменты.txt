@@ -1,0 +1,14 @@
+Рабочая кнопка "Click me" увеличение по кликам :
+------------------------------------------------
+
+function count(){
+    let a = 0
+    return function(){
+    a++;
+console.log(a)
+}
+}
+document.getElementById("mybutton").onclick = count()
+let d = count();
+
+

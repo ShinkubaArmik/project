@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  font: 1em/1.4em sans-serif;
+  
+}
+a{text-decoration: none;}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none
+} 
+/* Внешний вид меню */
+.side{
+  width: 200px;
+  margin: 20px;
+}
+
+.menu a{
+  background: #3d3d3d;
+  color: #fff;
+  padding:  10px;
+  display: block;
+  border-bottom: 1px solid #666;
+  transition: 0.5s all;
+  
+}
+.menu a:hover{
+  background: #666 ;
+  padding: 10px 0 10px 20px
+}
+/*Всплывающее меню*/
+.menu__list{
+  position: relative;
+  
+}
+.menu__drop{
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  opacity: 0;
+  
+ 
+}
+.menu__list:hover .menu__drop{
+   opacity: 1; 
+   
+
+}
+

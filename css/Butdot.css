@@ -1,0 +1,58 @@
+#mybutton {
+  background: lightgreen;
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #999;
+  box-shadow: 0 0 17px #eee;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #FFF; }
+  #mybutton:hover {
+    background-color: white; }
+  #mybutton:active {
+    background: #00b300; }
+
+#danger-button {
+  background: lightgreen;
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #999;
+  box-shadow: 0 0 17px #eee;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #FFF; }
+  #danger-button:hover {
+    background-color: white; }
+  #danger-button:active {
+    background: #00b300; }
+
+#attention-button {
+  background: lightgreen;
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #999;
+  box-shadow: 0 0 17px #eee;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #FFF; }
+  #attention-button:hover {
+    background-color: white; }
+  #attention-button:active {
+    background: #00b300; }
+
+/*# sourceMappingURL=Butdot.css.map */

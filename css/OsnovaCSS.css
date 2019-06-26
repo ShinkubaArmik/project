@@ -1,0 +1,104 @@
+*{
+    border-radius: 5px;
+}
+body{
+
+    color: black;
+
+}
+@media screen and (max-width: 992px){
+body{
+    background-color: blue;
+    color: white;
+}
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: olive;
+        color: white;
+    }
+}
+.link{
+    text-align: right;
+    
+ 
+}
+.conteiner{
+    border: inset 6px;
+  
+   background-color: lightslategray;
+
+
+}
+.block1{
+    width: 80px;
+    height: 30px;
+    background:yellow;
+    display: inline-block;
+  
+     
+    
+  }
+  .block2{
+    width: 80px;
+    height: 30px;
+    background-color: yellow;
+    display: inline-block;
+   
+   
+    
+  
+  }
+  .block3{
+    width: 80px;
+    height: 30px;
+    background-color:yellow;
+    display: inline-block;
+   
+    
+   
+  }
+  .block4{
+    width: 87px;
+    height:30px;
+    background-color: yellow;
+    display: inline-block;
+   
+  } 
+  a{
+    text-decoration: none;
+  
+  
+    }
+.header{
+width: 100% ;
+height:250px;
+
+margin-bottom: 5px;
+background-color: lightblue;
+}
+.sidebar{
+    width: 700px ;
+    height:750px;
+   
+    float: left;
+    background-image: url(../../Micro/yerevan.jpg);
+    background-size: 700px 750px;
+
+}
+.content{
+width: 1800px ;
+height: 750px;
+
+margin-left: 735px;
+background-color: bisque;
+
+
+}
+.footer{
+    width: 100% ;
+height:250px;
+
+margin-top: 5px;
+background-color: lightblue;
+}

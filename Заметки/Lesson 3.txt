@@ -1,0 +1,68 @@
+/*function say(){
+    console.log('Hello everyone!!!')
+}
+ 
+ say();*/
+
+ /*function say(){
+    var hi = "students";
+    return hi;
+}
+    console.log("Hello "+say())*/
+ 
+    /*function add(a,b) {
+       a = a || 10 ;
+       b = b || 20 ;
+       return a+b;
+
+    }
+    console.log(add());*/
+    
+   /* function info(name,surname) {
+        
+         name = name || "Poghos";
+         surname = surname || "Poghosyan";
+            return name+ " "+surname ;
+        }
+       console.log( info() );*/
+       /*function add(a,b) {
+       
+        var x = 100;
+       x = 100;
+        a = a || 10; 
+        b = b || 10;
+            return (a+b)+x;
+        }
+    console.log( add() ); */
+    
+  
+/*var res = function add(a,b){
+    console.log(3*a+4*b)
+}
+
+res(6,2);*/
+
+/*function hello(){
+    var say = "Hello";  
+    return say;    // --- вставил return ! Без него undefinde!
+     }
+     var res = hello();
+     console.log(res);*/
+
+  /*function getnum(){
+         var x = 1; //--- Вставил = 1 Без него Nan !
+         return ++x;
+     }
+     console.log(getnum())*/ 
+
+     /*function sum(x,y,z){
+            
+        return x*y+5*z;
+         }
+         function sum(a,b){
+            return a*b;
+         }
+        console.log( sum(5,5) )*/
+
+
+        
